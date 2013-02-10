@@ -36,7 +36,7 @@ Sub videoSetupButtons()
 
     m.offerResume = m.metadata.viewOffset <> invalid
 
-    m.AddButton(m.PlayButtonStates[m.PlayButtonState].label, "play")
+    m.AddButton("Play", "play")
     Debug("Media = " + tostr(m.media))
     Debug("Can direct play = " + tostr(videoCanDirectPlay(m.media)))
 

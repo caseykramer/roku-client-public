@@ -6,7 +6,7 @@
 Function createHomeScreen(viewController) As Object
     ' At the end of the day, the home screen is just a grid with a custom loader.
     ' So create a regular grid screen and override/extend as necessary.
-    obj = createGridScreen(viewController, "flat-square")
+    obj = createGridScreen(viewController, "flat-movie")
 
     obj.SetUpBehaviorAtTopRow("stop")
     obj.Screen.SetDisplayMode("photo-fit")
